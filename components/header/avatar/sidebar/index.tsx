@@ -1,6 +1,7 @@
 'use client';
 
 import { MouseEventHandler, useRef } from 'react';
+import UnsignedMenu from './unsigned-menu';
 
 export default function Sidebar({
   isOpened,
@@ -21,10 +22,13 @@ export default function Sidebar({
         onClick={onBGClicked}
       ></div>
       <div
-        className={`pointer-events-auto fixed bottom-0 top-0 block h-full w-[250px] bg-white transition-all duration-200 ${
-          isOpened ? 'right-0' : 'right-[-250px]'
+        className={`pointer-events-auto fixed bottom-0 top-0 block h-full w-[250px] transition-all duration-200 ${
+          isOpened ? 'right-0 bg-white/100' : 'right-[-250px] bg-white/0'
         }`}
-      ></div>
+      >
+        <div className="mb-12" />
+        <UnsignedMenu />
+      </div>
     </>
   );
 }

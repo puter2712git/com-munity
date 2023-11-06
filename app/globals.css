@@ -5,7 +5,7 @@
 :root {
   --background-rgb: 255, 255, 255;
   --neutral-rgb: 0, 0, 0;
-  --primary-rgb: 174, 214, 241;
+  --primary-rgb: 52, 152, 219;
   --secondary-rgb: 160, 160, 160;
 }
 
@@ -13,7 +13,7 @@
   :root {
     --background-rgb: 0, 0, 0;
     --neutral-rgb: 255, 255, 255;
-    --primary-rgb: 174, 214, 241;
+    --primary-rgb: 52, 152, 219;
     --secondary-rgb: 160, 160, 160;
   }
 }
