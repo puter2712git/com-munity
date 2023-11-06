@@ -13,13 +13,13 @@ export default function UnsignedMenu() {
       <div className="flex w-full flex-col gap-3 self-center">
         <Link
           href="/sign-in"
-          className="flex items-center justify-center rounded-[25px] border border-primary px-2 py-1 text-primary"
+          className="flex items-center justify-center rounded-[25px] border border-primary px-2 py-1 text-sm text-primary"
         >
           Sign In
         </Link>
         <Link
           href="/sign-up"
-          className="flex items-center justify-center rounded-[25px] bg-primary px-2 py-1 text-background"
+          className="flex items-center justify-center rounded-[25px] bg-primary px-2 py-1 text-sm text-background"
         >
           Sign Up
         </Link>
