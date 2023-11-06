@@ -17,3 +17,7 @@
     --secondary-rgb: 160, 160, 160;
   }
 }
+
+a {
+  @apply hover:underline;
+}
