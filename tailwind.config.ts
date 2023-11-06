@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        neutral: 'rgb(var(--neutral-rgb))',
-        background: 'rgb(var(--background-rgb))',
-        primary: 'rgb(var(--primary-rgb))',
-        secondary: 'rgb(var(--secondary-rgb))',
+        neutral: 'rgb(var(--neutral-rgb) / <alpha-value>)',
+        background: 'rgb(var(--background-rgb) / <alpha-value>)',
+        primary: 'rgb(var(--primary-rgb) / <alpha-value>)',
+        secondary: 'rgb(var(--secondary-rgb) / <alpha-value>)',
       },
     },
   },

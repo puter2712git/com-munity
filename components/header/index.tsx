@@ -1,6 +1,7 @@
 import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Navbar from './nav-bar';
+import Avatar from './avatar';
 
 export default function Header() {
   return (
@@ -14,6 +15,9 @@ export default function Header() {
           Com_munity
         </Link>
         <Navbar />
+      </div>
+      <div>
+        <Avatar />
       </div>
     </header>
   );
